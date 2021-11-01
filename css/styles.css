@@ -62,6 +62,23 @@ li {
   color: #2196f3;
 }
 
+li button:hover,
+li button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
+}
+li button {
+  color: #212121;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+/* Тело сайта */
+.hero-section {
+  background-color: #2f303a;
+}
 .hero-button {
   color: #ffffff;
   background-color: #2196f3;
@@ -69,15 +86,41 @@ li {
   border-radius: 4px;
 }
 
-button:hover,
-button:focus {
+.title-h1 {
   color: #ffffff;
-  background-color: #2196f3;
-  cursor: pointer;
-  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-button {
+
+.title-h2 {
   color: #212121;
-  background-color: #f5f4fa;
-  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.products-title {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.products-work {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
