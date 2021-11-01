@@ -1,7 +1,21 @@
-body {
-  background-color: ##ffffff;
+:root {
+  --brand-color: #2196f3;
 }
+
+body {
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+/* шапка сайта */
+
 .logo {
+  font-weight: 700;
   color: #000000;
   font-family: Raleway;
   font-style: normal;
@@ -9,18 +23,61 @@ body {
   font-size: 26px;
   line-height: 31px;
 }
+
 .logo-web {
   color: #2196f3;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
 }
+
+.nav-link {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-linl:focus {
+  color: #2196f3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+}
+
+.contacts {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 button:hover,
 button:focus {
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
 }
-.button {
+button {
+  color: #212121;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
