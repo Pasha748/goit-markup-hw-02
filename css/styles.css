@@ -1,10 +1,6 @@
 :root {
   --brand-color: #2196f3;
 }
-
-body {
-  background-color: #ffffff;
-}
 a {
   text-decoration: none;
 }
@@ -13,6 +9,9 @@ li {
 }
 
 /* шапка сайта */
+header {
+  background-color: #ffffff;
+}
 
 .logo {
   font-weight: 700;
@@ -122,5 +121,29 @@ li button {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Футер */
+
+footer {
+  background-color: #2f303a;
+}
+.address {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footcontacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
