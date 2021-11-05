@@ -48,7 +48,8 @@ body {
   letter-spacing: 0.02em;
 }
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.current {
   color: var(--accent-color);
 }
 .header-mail {
