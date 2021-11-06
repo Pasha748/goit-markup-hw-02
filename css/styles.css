@@ -22,6 +22,10 @@ body {
 .link {
   text-decoration: none;
 }
+
+.nav-link.current {
+  color: var(--accent-color);
+}
 /* --------------Header-------------- */
 
 .header {
@@ -48,8 +52,7 @@ body {
   letter-spacing: 0.02em;
 }
 .nav-link:hover,
-.nav-link:focus,
-.current {
+.nav-link:focus {
   color: var(--accent-color);
 }
 .header-mail {
