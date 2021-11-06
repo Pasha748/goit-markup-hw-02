@@ -186,6 +186,10 @@ body {
 .footer {
   background-color: var(--second-background-color);
 }
+
+.logo-studio-footer {
+  color: #ffffff;
+}
 .address-link {
   font-style: normal;
   font-size: 14px;
